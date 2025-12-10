@@ -14,6 +14,12 @@ const projects = [
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
     github: 'https://github.com/abhilash1432005/Personal-portfolio.git',
   },
+   {
+    title: 'Drowsiness Detector',
+    description: 'The Sleep Drowsiness Detector uses facial landmarks to analyse eye aspect ratio (EAR) and mouth aspect ratio (MAR) to detect if someone is sleepy, drowsy, or yawning. It continuously monitors multiple faces within a single video frame — ideal for real-world group or multi-user monitoring.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/abhilash1432005/Personal-portfolio.git',
+  },
 ];
 
 export const Projects = () => {

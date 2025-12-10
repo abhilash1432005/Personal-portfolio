@@ -12,7 +12,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'This interactive portfolio website with multiple themes, terminal aesthetics, and smooth animations built with React and TypeScript.',
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
-    github: '#',
+    github: 'https://github.com/abhilash1432005/Personal-portfolio.git',
   },
 ];
 

@@ -1,24 +1,27 @@
-import { ExternalLink, Github, Folder } from 'lucide-react';
+import { Github, Folder } from 'lucide-react';
 import { useInView } from '@/hooks/useInView';
 
 const projects = [
   {
     title: 'Automobile Management System',
-    description: 'A comprehensive web-based automobile garage management system with user authentication, spare parts gallery, appointment booking, and billing features.',
+    description:
+      'A comprehensive web-based automobile garage management system with user authentication, spare parts gallery, appointment booking, and billing features.',
     tech: ['Python', 'Django', 'HTML', 'CSS'],
     github: 'https://github.com/abhilash1432005/Auto-mobile-managementsystem',
   },
   {
     title: 'Portfolio Website',
-    description: 'This interactive portfolio website with multiple themes, terminal aesthetics, and smooth animations built with React and TypeScript.',
+    description:
+      'This interactive portfolio website with multiple themes, terminal aesthetics, and smooth animations built with React and TypeScript.',
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
     github: 'https://github.com/abhilash1432005/Personal-portfolio.git',
   },
-   {
+  {
     title: 'Drowsiness Detector',
-    description: 'The Sleep Drowsiness Detector uses facial landmarks to analyse eye aspect ratio (EAR) and mouth aspect ratio (MAR) to detect if someone is sleepy, drowsy, or yawning. It continuously monitors multiple faces within a single video frame — ideal for real-world group or multi-user monitoring.',
-    tech: ['React', 'TypeScript', 'Tailwind CSS'],
-    github: 'https://github.com/abhilash1432005/Personal-portfolio.git',
+    description:
+      'The Sleep Drowsiness Detector uses facial landmarks to analyse eye aspect ratio (EAR) and mouth aspect ratio (MAR) to detect if someone is sleepy, drowsy, or yawning. It continuously monitors multiple faces within a single video frame — ideal for real-world group or multi-user monitoring.',
+    tech: ['Python', 'OpenCV', 'dlib', 'winsound'],
+    github: 'https://github.com/abhilash1432005/driver-drowsiness-detector.git',
   },
 ];
 
@@ -28,7 +31,11 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-24 px-6" ref={ref}>
       <div className="max-w-5xl mx-auto">
-        <div className={`transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div
+          className={`transition-all duration-700 ${
+            isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           <div className="flex items-center gap-3 mb-12">
             <span className="text-primary font-mono text-sm">04.</span>
             <h2 className="text-3xl md:text-4xl font-display font-bold terminal-text">Projects</h2>
@@ -74,7 +81,9 @@ export const Projects = () => {
                       <a
                         href={project.github}
                         className="text-muted-foreground hover:text-foreground transition-colors"
-                        aria-label="View on GitHub"
+                        aria-label={`View ${project.title} on GitHub`}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <Github className="w-5 h-5" />
                       </a>

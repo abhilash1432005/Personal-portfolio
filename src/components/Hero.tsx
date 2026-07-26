@@ -85,7 +85,7 @@ export const Hero = () => {
               </div>
 
               <p className="text-lg md:text-xl text-foreground opacity-80">
-                Computer Science Student • AI & ML Enthusiast • Full Stack Developer • Data Analyst • Python Developer
+                Computer Science graduate • Full Stack Developer • Cloud Enthusiast • DevOps Enthusiast 
               </p>
 
               <div className="flex items-center gap-2 mt-4 justify-center md:justify-start">
@@ -94,7 +94,7 @@ export const Hero = () => {
               </div>
 
               <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-                "Building innovative solutions at the intersection of AI, web development, and Data Analysis."
+                "Building innovative solutions at the intersection of AI, web development, and cloud computing."
               </p>
 
               <div className="flex flex-wrap items-center gap-4 mt-6 pt-4 border-t border-border justify-center md:justify-start">

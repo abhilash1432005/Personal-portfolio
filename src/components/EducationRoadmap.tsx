@@ -7,8 +7,8 @@ const education = [
     institution: 'KL University',
     location: 'Vijayawada, India',
     duration: '2022 – 2026',
-    grade: 'CGPA: 8.91',
-    status: 'current',
+    grade: 'CGPA: 9.02',
+    status: 'Completed',
     description: 'Specializing in Artificial Intelligence and Intelligent Process Automation',
   },
   {

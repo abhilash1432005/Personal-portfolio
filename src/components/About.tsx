@@ -39,16 +39,17 @@ export const About = () => {
   },
   "interests": [
     "Web Development",
-    "Machine Learning",
+    "DevOps Engineer",
     "Data Analytics",
-    "Cloud Computing",
-    "Python Developer"
+    "Cloud Computing"
   ],
   "currently_learning": [
-    "Advanced ML",
+    "DevOps",
     "React Ecosystem",
     "AWS Services",
-    "Data Analytics"
+    "Azure Services"
+    "Terraform"
+    "Cloud Services"
   ]
 }`}
                 </code>

@@ -2,7 +2,7 @@ import { Code, GraduationCap, Award, Briefcase } from 'lucide-react';
 import { useInView } from '@/hooks/useInView';
 
 const stats = [
-  { icon: <GraduationCap className="w-5 h-5" />, label: 'CGPA', value: '8.91' },
+  { icon: <GraduationCap className="w-5 h-5" />, label: 'CGPA', value: '9.02' },
   { icon: <Code className="w-5 h-5" />, label: 'Projects', value: '2+' },
   { icon: <Award className="w-5 h-5" />, label: 'Certifications', value: '5+' },
   { icon: <Briefcase className="w-5 h-5" />, label: 'Experience', value: '2 Internships' },
@@ -41,7 +41,7 @@ export const About = () => {
     "Web Development",
     "DevOps Engineer",
     "Data Analytics",
-    "Cloud Computing"
+    "Cloud"
   ],
   "currently_learning": [
     "DevOps",
